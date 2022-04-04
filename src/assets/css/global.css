@@ -1,7 +1,46 @@
-html,
-body,
-#app {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
+    html,
+    body,
+    #app {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .home-container {
+        height: 100%;
+    }
+    
+    .el-header {
+        background-color: #373D41;
+    }
+    
+    .el-aside {
+        background-color: #333744;
+    }
+    
+    .el-main {
+        background-color: #eaedf1;
+    }
+    
+    .toggle-button {
+        background-color: #4A5064;
+        color: #fff;
+        font-size: 10px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.2em;
+    }
+    
+    .el-breadcrumb {
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+    
+    .el-card {
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+        /* margin-top: 15px; */
+    }
+    
+    .el-pagination {
+        margin-top: 15px;
+    }
