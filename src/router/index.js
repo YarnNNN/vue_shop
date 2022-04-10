@@ -1,9 +1,39 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+<<<<<<< Updated upstream
 import Login from '../components/Login.vue'
 import Home from '../components/Home'
 import Welcome from '../components/Welcome'
 import Users from '../components/user/Users'
+=======
+
+// import Login from '../components/Login.vue'
+const Login = () =>
+    import ('../components/Login.vue')
+
+// import Home from '../components/Home'
+const Home = () =>
+    import ('../components/Home')
+
+// import Welcome from '../components/Welcome'
+const Welcome = () =>
+    import ('../components/Welcome')
+
+// import Users from '../components/user/Users'
+const Users = () =>
+    import ('../components/user/Users')
+
+// import Rights from '../components/power/Rights'
+const Rights = () =>
+    import ('../components/power/Rights')
+
+// import Report from '../components/Report/Report'
+const Report = () =>
+    import ('../components/Report/Report')
+
+const Roles = () =>
+    import ('../components/power/Roles')
+>>>>>>> Stashed changes
 
 
 Vue.use(VueRouter)
@@ -18,6 +48,12 @@ const routes = [
         children: [
             { path: '/welcome', component: Welcome },
             { path: '/users', component: Users },
+<<<<<<< Updated upstream
+=======
+            { path: '/rights', component: Rights },
+            { path: '/roles', component: Roles },
+            { path: '/reports', component: Report },
+>>>>>>> Stashed changes
         ]
     }
 
