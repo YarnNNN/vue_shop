@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Login from '../components/Login.vue'
-import Home from '../components/Home'
-import Welcome from '../components/Welcome'
-import Users from '../components/user/Users'
+// import Login from '../components/Login.vue'
+// import Home from '../components/Home'
+// import Welcome from '../components/Welcome'
+// import Users from '../components/user/Users'
 
-import Rights from '../components/power/Rights'
-import Report from '../components/Report/Report'
+// import Rights from '../components/power/Rights'
+// import Report from '../components/Report/Report'
 
 
 // import Login from '../components/Login.vue'
