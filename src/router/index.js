@@ -37,6 +37,9 @@ const Report = () =>
 const Roles = () =>
     import ('../components/power/Roles')
 
+const Cate = () =>
+    import ('../components/goods/Cate')
+
 
 Vue.use(VueRouter)
 
@@ -55,6 +58,7 @@ const routes = [
             { path: '/rights', component: Rights },
             { path: '/roles', component: Roles },
             { path: '/reports', component: Report },
+            { path: '/categories', component: Cate },
         ]
     }
 
